@@ -1,4 +1,4 @@
-# Mock-Car-Rental-UI-Database
+# Mock-Car-Rental-UI
 
 This assignment was finished in semester 2 of my degree, from approximately March to June 2020
 It is a mock car rental command line UI made in cs with an SQL database to back up entries.
