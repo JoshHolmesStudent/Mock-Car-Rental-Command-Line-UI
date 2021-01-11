@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "JJhu0lVUKGNmrldESWE8hB+GfYPWbzrf3PrF+BO4UXW5ymaR7yXg8fDMipnT6eYjOKySgZmVAi1Z2rd8hRkSSA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\joshh\\OneDrive - Queensland University of Technology\\Y1S2\\CAB201\\Assignment_2\\MRRCmanagement\\MRRCmanagement.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\joshh\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\joshh\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

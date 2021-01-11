@@ -1,0 +1,78 @@
+C:\Users\joshh\source\repos\Assignment 1\MRRCmanagement\bin\Debug\netstandard2.0\MRRCmanagement.deps.json
+C:\Users\joshh\source\repos\Assignment 1\MRRCmanagement\bin\Debug\netstandard2.0\MRRCmanagement.dll
+C:\Users\joshh\source\repos\Assignment 1\MRRCmanagement\bin\Debug\netstandard2.0\MRRCmanagement.pdb
+C:\Users\joshh\source\repos\Assignment 1\MRRCmanagement\obj\Debug\netstandard2.0\MRRCmanagement.csprojAssemblyReference.cache
+C:\Users\joshh\source\repos\Assignment 1\MRRCmanagement\obj\Debug\netstandard2.0\MRRCmanagement.csproj.CoreCompileInputs.cache
+C:\Users\joshh\source\repos\Assignment 1\MRRCmanagement\obj\Debug\netstandard2.0\MRRCmanagement.AssemblyInfoInputs.cache
+C:\Users\joshh\source\repos\Assignment 1\MRRCmanagement\obj\Debug\netstandard2.0\MRRCmanagement.AssemblyInfo.cs
+C:\Users\joshh\source\repos\Assignment 1\MRRCmanagement\obj\Debug\netstandard2.0\MRRCmanagement.dll
+C:\Users\joshh\source\repos\Assignment 1\MRRCmanagement\obj\Debug\netstandard2.0\MRRCmanagement.pdb
+C:\Users\joshh\source\repos\Assignment_1\MRRCmanagement\bin\Debug\netstandard2.0\MRRCmanagement.deps.json
+C:\Users\joshh\source\repos\Assignment_1\MRRCmanagement\bin\Debug\netstandard2.0\MRRCmanagement.dll
+C:\Users\joshh\source\repos\Assignment_1\MRRCmanagement\bin\Debug\netstandard2.0\MRRCmanagement.pdb
+C:\Users\joshh\source\repos\Assignment_1\MRRCmanagement\obj\Debug\netstandard2.0\MRRCmanagement.csprojAssemblyReference.cache
+C:\Users\joshh\source\repos\Assignment_1\MRRCmanagement\obj\Debug\netstandard2.0\MRRCmanagement.csproj.CoreCompileInputs.cache
+C:\Users\joshh\source\repos\Assignment_1\MRRCmanagement\obj\Debug\netstandard2.0\MRRCmanagement.AssemblyInfoInputs.cache
+C:\Users\joshh\source\repos\Assignment_1\MRRCmanagement\obj\Debug\netstandard2.0\MRRCmanagement.AssemblyInfo.cs
+C:\Users\joshh\source\repos\Assignment_1\MRRCmanagement\obj\Debug\netstandard2.0\MRRCmanagement.dll
+C:\Users\joshh\source\repos\Assignment_1\MRRCmanagement\obj\Debug\netstandard2.0\MRRCmanagement.pdb
+Z:\source\repos\Assignment_1\MRRCmanagement\bin\Debug\netstandard2.0\MRRCmanagement.deps.json
+Z:\source\repos\Assignment_1\MRRCmanagement\bin\Debug\netstandard2.0\MRRCmanagement.dll
+Z:\source\repos\Assignment_1\MRRCmanagement\bin\Debug\netstandard2.0\MRRCmanagement.pdb
+Z:\source\repos\Assignment_1\MRRCmanagement\obj\Debug\netstandard2.0\MRRCmanagement.csprojAssemblyReference.cache
+Z:\source\repos\Assignment_1\MRRCmanagement\obj\Debug\netstandard2.0\MRRCmanagement.AssemblyInfoInputs.cache
+Z:\source\repos\Assignment_1\MRRCmanagement\obj\Debug\netstandard2.0\MRRCmanagement.AssemblyInfo.cs
+Z:\source\repos\Assignment_1\MRRCmanagement\obj\Debug\netstandard2.0\MRRCmanagement.dll
+Z:\source\repos\Assignment_1\MRRCmanagement\obj\Debug\netstandard2.0\MRRCmanagement.pdb
+C:\Users\joshh\OneDrive - Queensland University of Technology\CAB201\Assignment_1\MRRCmanagement\bin\Debug\netstandard2.0\MRRCmanagement.deps.json
+C:\Users\joshh\OneDrive - Queensland University of Technology\CAB201\Assignment_1\MRRCmanagement\bin\Debug\netstandard2.0\MRRCmanagement.dll
+C:\Users\joshh\OneDrive - Queensland University of Technology\CAB201\Assignment_1\MRRCmanagement\bin\Debug\netstandard2.0\MRRCmanagement.pdb
+C:\Users\joshh\OneDrive - Queensland University of Technology\CAB201\Assignment_1\MRRCmanagement\obj\Debug\netstandard2.0\MRRCmanagement.csprojAssemblyReference.cache
+C:\Users\joshh\OneDrive - Queensland University of Technology\CAB201\Assignment_1\MRRCmanagement\obj\Debug\netstandard2.0\MRRCmanagement.csproj.CoreCompileInputs.cache
+C:\Users\joshh\OneDrive - Queensland University of Technology\CAB201\Assignment_1\MRRCmanagement\obj\Debug\netstandard2.0\MRRCmanagement.AssemblyInfoInputs.cache
+C:\Users\joshh\OneDrive - Queensland University of Technology\CAB201\Assignment_1\MRRCmanagement\obj\Debug\netstandard2.0\MRRCmanagement.AssemblyInfo.cs
+C:\Users\joshh\OneDrive - Queensland University of Technology\CAB201\Assignment_1\MRRCmanagement\obj\Debug\netstandard2.0\MRRCmanagement.dll
+C:\Users\joshh\OneDrive - Queensland University of Technology\CAB201\Assignment_1\MRRCmanagement\obj\Debug\netstandard2.0\MRRCmanagement.pdb
+Z:\OneDrive - Queensland University of Technology\CAB201\Assignment_1\MRRCmanagement\bin\Debug\netstandard2.0\MRRCmanagement.deps.json
+Z:\OneDrive - Queensland University of Technology\CAB201\Assignment_1\MRRCmanagement\bin\Debug\netstandard2.0\MRRCmanagement.dll
+Z:\OneDrive - Queensland University of Technology\CAB201\Assignment_1\MRRCmanagement\bin\Debug\netstandard2.0\MRRCmanagement.pdb
+Z:\OneDrive - Queensland University of Technology\CAB201\Assignment_1\MRRCmanagement\obj\Debug\netstandard2.0\MRRCmanagement.csprojAssemblyReference.cache
+Z:\OneDrive - Queensland University of Technology\CAB201\Assignment_1\MRRCmanagement\obj\Debug\netstandard2.0\MRRCmanagement.AssemblyInfoInputs.cache
+Z:\OneDrive - Queensland University of Technology\CAB201\Assignment_1\MRRCmanagement\obj\Debug\netstandard2.0\MRRCmanagement.AssemblyInfo.cs
+Z:\OneDrive - Queensland University of Technology\CAB201\Assignment_1\MRRCmanagement\obj\Debug\netstandard2.0\MRRCmanagement.dll
+Z:\OneDrive - Queensland University of Technology\CAB201\Assignment_1\MRRCmanagement\obj\Debug\netstandard2.0\MRRCmanagement.pdb
+C:\Users\joshh\Documents\Assignment_1\MRRCmanagement\bin\Debug\netstandard2.0\MRRCmanagement.deps.json
+C:\Users\joshh\Documents\Assignment_1\MRRCmanagement\bin\Debug\netstandard2.0\MRRCmanagement.dll
+C:\Users\joshh\Documents\Assignment_1\MRRCmanagement\bin\Debug\netstandard2.0\MRRCmanagement.pdb
+C:\Users\joshh\Documents\Assignment_1\MRRCmanagement\obj\Debug\netstandard2.0\MRRCmanagement.csprojAssemblyReference.cache
+C:\Users\joshh\Documents\Assignment_1\MRRCmanagement\obj\Debug\netstandard2.0\MRRCmanagement.csproj.CoreCompileInputs.cache
+C:\Users\joshh\Documents\Assignment_1\MRRCmanagement\obj\Debug\netstandard2.0\MRRCmanagement.AssemblyInfoInputs.cache
+C:\Users\joshh\Documents\Assignment_1\MRRCmanagement\obj\Debug\netstandard2.0\MRRCmanagement.AssemblyInfo.cs
+C:\Users\joshh\Documents\Assignment_1\MRRCmanagement\obj\Debug\netstandard2.0\MRRCmanagement.dll
+C:\Users\joshh\Documents\Assignment_1\MRRCmanagement\obj\Debug\netstandard2.0\MRRCmanagement.pdb
+C:\Users\joshh\source\repos\Assignment_2\MRRCmanagement\bin\Debug\netstandard2.0\MRRCmanagement.deps.json
+C:\Users\joshh\source\repos\Assignment_2\MRRCmanagement\bin\Debug\netstandard2.0\MRRCmanagement.dll
+C:\Users\joshh\source\repos\Assignment_2\MRRCmanagement\bin\Debug\netstandard2.0\MRRCmanagement.pdb
+C:\Users\joshh\source\repos\Assignment_2\MRRCmanagement\obj\Debug\netstandard2.0\MRRCmanagement.csprojAssemblyReference.cache
+C:\Users\joshh\source\repos\Assignment_2\MRRCmanagement\obj\Debug\netstandard2.0\MRRCmanagement.csproj.CoreCompileInputs.cache
+C:\Users\joshh\source\repos\Assignment_2\MRRCmanagement\obj\Debug\netstandard2.0\MRRCmanagement.AssemblyInfoInputs.cache
+C:\Users\joshh\source\repos\Assignment_2\MRRCmanagement\obj\Debug\netstandard2.0\MRRCmanagement.AssemblyInfo.cs
+C:\Users\joshh\source\repos\Assignment_2\MRRCmanagement\obj\Debug\netstandard2.0\MRRCmanagement.dll
+C:\Users\joshh\source\repos\Assignment_2\MRRCmanagement\obj\Debug\netstandard2.0\MRRCmanagement.pdb
+Z:\source\repos\Assignment_2\MRRCmanagement\bin\Debug\netstandard2.0\MRRCmanagement.deps.json
+Z:\source\repos\Assignment_2\MRRCmanagement\bin\Debug\netstandard2.0\MRRCmanagement.dll
+Z:\source\repos\Assignment_2\MRRCmanagement\bin\Debug\netstandard2.0\MRRCmanagement.pdb
+Z:\source\repos\Assignment_2\MRRCmanagement\obj\Debug\netstandard2.0\MRRCmanagement.csprojAssemblyReference.cache
+Z:\source\repos\Assignment_2\MRRCmanagement\obj\Debug\netstandard2.0\MRRCmanagement.AssemblyInfoInputs.cache
+Z:\source\repos\Assignment_2\MRRCmanagement\obj\Debug\netstandard2.0\MRRCmanagement.AssemblyInfo.cs
+Z:\source\repos\Assignment_2\MRRCmanagement\obj\Debug\netstandard2.0\MRRCmanagement.dll
+Z:\source\repos\Assignment_2\MRRCmanagement\obj\Debug\netstandard2.0\MRRCmanagement.pdb
+C:\Users\joshh\OneDrive - Queensland University of Technology\Y1S2\CAB201\Assignment_2\MRRCmanagement\bin\Debug\netstandard2.0\MRRCmanagement.deps.json
+C:\Users\joshh\OneDrive - Queensland University of Technology\Y1S2\CAB201\Assignment_2\MRRCmanagement\bin\Debug\netstandard2.0\MRRCmanagement.dll
+C:\Users\joshh\OneDrive - Queensland University of Technology\Y1S2\CAB201\Assignment_2\MRRCmanagement\bin\Debug\netstandard2.0\MRRCmanagement.pdb
+C:\Users\joshh\OneDrive - Queensland University of Technology\Y1S2\CAB201\Assignment_2\MRRCmanagement\obj\Debug\netstandard2.0\MRRCmanagement.csprojAssemblyReference.cache
+C:\Users\joshh\OneDrive - Queensland University of Technology\Y1S2\CAB201\Assignment_2\MRRCmanagement\obj\Debug\netstandard2.0\MRRCmanagement.AssemblyInfoInputs.cache
+C:\Users\joshh\OneDrive - Queensland University of Technology\Y1S2\CAB201\Assignment_2\MRRCmanagement\obj\Debug\netstandard2.0\MRRCmanagement.AssemblyInfo.cs
+C:\Users\joshh\OneDrive - Queensland University of Technology\Y1S2\CAB201\Assignment_2\MRRCmanagement\obj\Debug\netstandard2.0\MRRCmanagement.csproj.CoreCompileInputs.cache
+C:\Users\joshh\OneDrive - Queensland University of Technology\Y1S2\CAB201\Assignment_2\MRRCmanagement\obj\Debug\netstandard2.0\MRRCmanagement.dll
+C:\Users\joshh\OneDrive - Queensland University of Technology\Y1S2\CAB201\Assignment_2\MRRCmanagement\obj\Debug\netstandard2.0\MRRCmanagement.pdb

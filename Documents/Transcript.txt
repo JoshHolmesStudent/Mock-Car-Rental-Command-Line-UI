@@ -1,0 +1,978 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20200423134913
+Username: DESKTOP-PBTFD0M\joshh
+RunAs User: DESKTOP-PBTFD0M\joshh
+Configuration Name: 
+Machine: DESKTOP-PBTFD0M (Microsoft Windows NT 10.0.17763.0)
+Host Application: C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe
+Process ID: 29688
+PSVersion: 5.1.17763.1007
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.17763.1007
+BuildVersion: 10.0.17763.1007
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is Transcript5.txt
+PS C:\Users\joshh\source\repos\Assignment_1\Assignment 1\bin\Debug\netcoreapp3.1> ./MRRC
+
+----- Mates Rates Rent-a-car Operation Menu -----
+
+Press the BackSpace key at any time to go return to the previous menu
+
+Please select from the choices below:
+
+A. Customer Management
+B. Fleet Management
+C. Rental Management
+
+d
+ERROR: Please enter a valid character between A and C
+
+a
+---------Customer Management Menu---------
+
+Please select from the options below:
+A. Display Customers
+B. New Customer
+C. Modify Customer
+D. Delete Customer
+e
+ERROR: Please enter a valid character between A and D
+
+a
++---+------+-----------+----------+-------+----------------------+
+|ID |Title |First Name |Last Name |Gender |DOB                   |
++---+------+-----------+----------+-------+----------------------+
+|1  |Mr    |Joshua     |Holmes    |Male   |3/02/2005 12:00:00 AM |
++---+------+-----------+----------+-------+----------------------+
+
+Please select from the options below:
+A. Display Customers
+B. New Customer
+C. Modify Customer
+D. Delete Customer
+b
+Please enter the following fields (Note: you may not exit the program or go to the previous menu while creating a customer):
+Title: Mr
+First Name: Goshua
+Last Name: Golmes
+Gender: l
+
+ERROR: Please select from either Male, Female, or Other
+
+Gender: Other
+Date of Birth: o
+
+ERROR: Please enter a compatible date time format (xx/xx/xx)
+
+Date of Birth: 02/04/2005 12:24:43 PM
+Successfully created Customer 2 - Mr Goshua Golmes
+
+
+Please select from the options below:
+A. Display Customers
+B. New Customer
+C. Modify Customer
+D. Delete Customer
+a
++---+------+-----------+----------+-------+----------------------+
+|ID |Title |First Name |Last Name |Gender |DOB                   |
++---+------+-----------+----------+-------+----------------------+
+|1  |Mr    |Joshua     |Holmes    |Male   |3/02/2005 12:00:00 AM |
++---+------+-----------+----------+-------+----------------------+
+|2  |Mr    |Goshua     |Golmes    |Other  |2/04/2005 12:24:43 PM |
++---+------+-----------+----------+-------+----------------------+
+
+Please select from the options below:
+A. Display Customers
+B. New Customer
+C. Modify Customer
+D. Delete Customer
+c
+Please enter the letter ID of the customer you wish to modify:
+A- 1 - Mr. Joshua Holmes
+B- 2 - Mr. Goshua Golmes
+c
+ERROR: Please enter a valid character between A and B
+
+b
+ID Number: 2
+Title: Mr
+First Name: Goshua
+Last Name: Golmes
+Gender: Other
+Date Of Birth: 2/04/2005 12:24:43 PM
+
+
+Select which aspect of customer to modify
+
+
+A - ID
+
+B - Title
+
+C - First Name
+
+D - Last Name
+
+E - Gender
+
+F - Date of Birth
+a
+You have entered A, for ID
+The Current ID for this customer is 2. What would you like to change it to?
+
+1
+
+ERROR: Customer of id 1 already exists. Please enter a unique ID number
+
+
+Select which aspect of customer to modify
+
+
+A - ID
+
+B - Title
+
+C - First Name
+
+D - Last Name
+
+E - Gender
+
+F - Date of Birth
+a
+You have entered A, for ID
+The Current ID for this customer is 2. What would you like to change it to?
+
+3
+
+You have changed the ID from 2 to 3.
+
+
++---+------+-----------+----------+-------+----------------------+
+|ID |Title |First Name |Last Name |Gender |DOB                   |
++---+------+-----------+----------+-------+----------------------+
+|1  |Mr    |Joshua     |Holmes    |Male   |3/02/2005 12:00:00 AM |
++---+------+-----------+----------+-------+----------------------+
+|3  |Mr    |Goshua     |Golmes    |Other  |2/04/2005 12:24:43 PM |
++---+------+-----------+----------+-------+----------------------+
+
+Would you like to modify another aspect of this customer? (Y/N)
+
+y
+Select which aspect of customer to modify
+
+
+A - ID
+
+B - Title
+
+C - First Name
+
+D - Last Name
+
+E - Gender
+
+F - Date of Birth
+b
+You have entered B, for Title
+The Current Title for this customer is Mr. What would you like to change it to?
+
+Mrs
+
+You have changed the Title from Mr to Mrs.
+
+
++---+------+-----------+----------+-------+----------------------+
+|ID |Title |First Name |Last Name |Gender |DOB                   |
++---+------+-----------+----------+-------+----------------------+
+|1  |Mr    |Joshua     |Holmes    |Male   |3/02/2005 12:00:00 AM |
++---+------+-----------+----------+-------+----------------------+
+|3  |Mrs   |Goshua     |Golmes    |Other  |2/04/2005 12:24:43 PM |
++---+------+-----------+----------+-------+----------------------+
+
+Would you like to modify another aspect of this customer? (Y/N)
+
+y
+Select which aspect of customer to modify
+
+
+A - ID
+
+B - Title
+
+C - First Name
+
+D - Last Name
+
+E - Gender
+
+F - Date of Birth
+c
+You have entered C, for First Name
+The Current First Name for this customer is Goshua. What would you like to change it to?
+
+Loshua
+
+You have changed the First Name from Goshua to Loshua.
+
+
++---+------+-----------+----------+-------+----------------------+
+|ID |Title |First Name |Last Name |Gender |DOB                   |
++---+------+-----------+----------+-------+----------------------+
+|1  |Mr    |Joshua     |Holmes    |Male   |3/02/2005 12:00:00 AM |
++---+------+-----------+----------+-------+----------------------+
+|3  |Mrs   |Loshua     |Golmes    |Other  |2/04/2005 12:24:43 PM |
++---+------+-----------+----------+-------+----------------------+
+
+Would you like to modify another aspect of this customer? (Y/N)
+
+y
+Select which aspect of customer to modify
+
+
+A - ID
+
+B - Title
+
+C - First Name
+
+D - Last Name
+
+E - Gender
+
+F - Date of Birth
+d
+You have entered D, for Last Name
+The Current Last Name for this customer is Golmes. What would you like to change it to?
+
+Lolmes
+
+You have changed the Last Name from Golmes to Lolmes.
+
+
++---+------+-----------+----------+-------+----------------------+
+|ID |Title |First Name |Last Name |Gender |DOB                   |
++---+------+-----------+----------+-------+----------------------+
+|1  |Mr    |Joshua     |Holmes    |Male   |3/02/2005 12:00:00 AM |
++---+------+-----------+----------+-------+----------------------+
+|3  |Mrs   |Loshua     |Lolmes    |Other  |2/04/2005 12:24:43 PM |
++---+------+-----------+----------+-------+----------------------+
+
+Would you like to modify another aspect of this customer? (Y/N)
+
+y
+Select which aspect of customer to modify
+
+
+A - ID
+
+B - Title
+
+C - First Name
+
+D - Last Name
+
+E - Gender
+
+F - Date of Birth
+e
+You have entered E, for Gender
+The Current Gender for this customer is Other. What would you like to change it to?
+
+Female
+
+You have changed the Gender from Other to Female.
+
+
++---+------+-----------+----------+-------+----------------------+
+|ID |Title |First Name |Last Name |Gender |DOB                   |
++---+------+-----------+----------+-------+----------------------+
+|1  |Mr    |Joshua     |Holmes    |Male   |3/02/2005 12:00:00 AM |
++---+------+-----------+----------+-------+----------------------+
+|3  |Mrs   |Loshua     |Lolmes    |Female |2/04/2005 12:24:43 PM |
++---+------+-----------+----------+-------+----------------------+
+
+Would you like to modify another aspect of this customer? (Y/N)
+
+y
+Select which aspect of customer to modify
+
+
+A - ID
+
+B - Title
+
+C - First Name
+
+D - Last Name
+
+E - Gender
+
+F - Date of Birth
+f
+You have entered F, for Date of Birth
+The Current Date of Birth for this customer is 2/04/2005 12:24:43 PM. What would you like to change it to?
+
+9
+
+ERROR: Please enter a valid date time format (xx/xx/xx)
+
+Select which aspect of customer to modify
+
+
+A - ID
+
+B - Title
+
+C - First Name
+
+D - Last Name
+
+E - Gender
+
+F - Date of Birth
+f
+You have entered F, for Date of Birth
+The Current Date of Birth for this customer is 2/04/2005 12:24:43 PM. What would you like to change it to?
+
+01/09/1999
+
+You have changed the Date of Birth from 2/04/2005 12:24:43 PM to 01/09/1999.
+
+
++---+------+-----------+----------+-------+----------------------+
+|ID |Title |First Name |Last Name |Gender |DOB                   |
++---+------+-----------+----------+-------+----------------------+
+|1  |Mr    |Joshua     |Holmes    |Male   |3/02/2005 12:00:00 AM |
++---+------+-----------+----------+-------+----------------------+
+|3  |Mrs   |Loshua     |Lolmes    |Female |1/09/1999 12:00:00 AM |
++---+------+-----------+----------+-------+----------------------+
+
+Would you like to modify another aspect of this customer? (Y/N)
+
+n
+
+Please select from the options below:
+A. Display Customers
+B. New Customer
+C. Modify Customer
+D. Delete Customer
+d
+Please select the letter ID of the customer to remove
+
+A-1 - Mr. Joshua Holmes
+B-3 - Mrs. Loshua Lolmes
+c
+ERROR: Please enter a valid character between A and B
+
+b
+Successfully deleted customer with ID 3
+
+
++---+------+-----------+----------+-------+----------------------+
+|ID |Title |First Name |Last Name |Gender |DOB                   |
++---+------+-----------+----------+-------+----------------------+
+|1  |Mr    |Joshua     |Holmes    |Male   |3/02/2005 12:00:00 AM |
++---+------+-----------+----------+-------+----------------------+
+Would you like to delete another customer?(Y/N)
+y
+Please select the letter ID of the customer to remove
+
+A-1 - Mr. Joshua Holmes
+a
+Successfully deleted customer with ID 1
+
+
+Please select from the options below:
+A. Display Customers
+B. New Customer
+C. Modify Customer
+D. Delete Customer
+a
+ERROR: No customers to display. Please add a customer and try again
+
+Please select from the options below:
+A. Display Customers
+B. New Customer
+C. Modify Customer
+D. Delete Customer
+
+----- Mates Rates Rent-a-car Operation Menu -----
+
+Press the BackSpace key at any time to go return to the previous menu
+
+Please select from the choices below:
+
+A. Customer Management
+B. Fleet Management
+C. Rental Management
+
+b
+---------Vehicle Management Menu---------
+
+Please select from the options below:
+A. Display Vehicles
+B. New Vehicle
+C. Modify Vehicle
+D. Delete Vehicle
+a
++-------------+-----------+-----------+-------------+-----+---------+-------------+-------+------+-------+-----------+-------+
+|Registration |Grade      |Make       |Model        |Year |NumSeats |Transmission |Fuel   |GPS   |SunRoof|DailyRate  |Colour |
++-------------+-----------+-----------+-------------+-----+---------+-------------+-------+------+-------+-----------+-------+
+|851VOJ       |Economy    |Pontiac    |Fiero 2M4    |1985 |2        |Manual       |Petrol |False |False  |37.1       |Black  |
++-------------+-----------+-----------+-------------+-----+---------+-------------+-------+------+-------+-----------+-------+
+|169FBE       |Economy    |Pontiac    |Fiero 2M4    |1985 |2        |Manual       |Petrol |False |False  |48.8       |Black  |
++-------------+-----------+-----------+-------------+-----+---------+-------------+-------+------+-------+-----------+-------+
+|602VVZ       |Economy    |Pontiac    |Fiero 2M4    |1987 |2        |Manual       |Petrol |False |False  |37.9       |Red    |
++-------------+-----------+-----------+-------------+-----+---------+-------------+-------+------+-------+-----------+-------+
+|993QAN       |Commercial |Mitsubishi |3000 GT VR-4 |1991 |2        |Manual       |Petrol |False |False  |37.8       |Red    |
++-------------+-----------+-----------+-------------+-----+---------+-------------+-------+------+-------+-----------+-------+
+|509XRK       |Commercial |Dodge      |Dakota       |2002 |4        |Manual       |Diesel |True  |False  |45.5       |Blue   |
++-------------+-----------+-----------+-------------+-----+---------+-------------+-------+------+-------+-----------+-------+
+|471XBI       |Luxury     |Chevrolet  |Tahoe        |1996 |8        |Automatic    |Petrol |True  |True   |38         |Black  |
++-------------+-----------+-----------+-------------+-----+---------+-------------+-------+------+-------+-----------+-------+
+|682GWJ       |Commercial |Audi       |A4           |1997 |5        |Manual       |Petrol |False |False  |46.1       |Blue   |
++-------------+-----------+-----------+-------------+-----+---------+-------------+-------+------+-------+-----------+-------+
+|677UIA       |Economy    |Audi       |S4           |2004 |5        |Manual       |Petrol |False |False  |43.3       |Blue   |
++-------------+-----------+-----------+-------------+-----+---------+-------------+-------+------+-------+-----------+-------+
+|519YUY       |Family     |Dodge      |Durango      |2006 |7        |Automatic    |Diesel |True  |True   |46.8       |Blue   |
++-------------+-----------+-----------+-------------+-----+---------+-------------+-------+------+-------+-----------+-------+
+|124ABC       |Family     |Mazda      |4            |2019 |4        |Automatic    |Petrol |True  |True   |80         |black  |
++-------------+-----------+-----------+-------------+-----+---------+-------------+-------+------+-------+-----------+-------+
+|123abc       |Economy    |mazda      |1            |2020 |4        |Manual       |Petrol |False |False  |50         |black  |
++-------------+-----------+-----------+-------------+-----+---------+-------------+-------+------+-------+-----------+-------+
+
+---------Vehicle Management Menu---------
+
+Please select from the options below:
+A. Display Vehicles
+B. New Vehicle
+C. Modify Vehicle
+D. Delete Vehicle
+b
+
+Please select the details settings:
+A: Use defaults (only fill in the required fields)
+B: Fully intensive (Customise every field)
+(Note: You may not be able to move to the previous menu or officially exit the program while creating a vehicle)
+
+a
+Please enter the following fields:
+Registration: 124ABC
+ERROR: Registration found in existing vehicle. Please enter a registration that does not already exist
+125ABC
+Vehicle Grade: f
+
+Please enter a compatible grade type (Luxury, Commercial, Family, or Economy)
+Vehicle Grade: Family
+Make: Mazda
+Model: 3
+Year: o
+
+ERROR: please enter a whole number signifying the year of the vehicle
+Year: 2017
+
+Registration: 125ABC
+Grade: Family
+Make: Mazda
+Model: 3
+Year: 2017
+Number of seats: 4 seater
+Transmission type: Automatic
+Fuel Type: Petrol
+GPS Inclusion: True
+SunRoof Inclusion: True
+Daily Rate: $80
+Colour: black
+Successfully created Vehicle 2017 - Mazda 3
+
+
+---------Vehicle Management Menu---------
+
+Please select from the options below:
+A. Display Vehicles
+B. New Vehicle
+C. Modify Vehicle
+D. Delete Vehicle
+b
+
+Please select the details settings:
+A: Use defaults (only fill in the required fields)
+B: Fully intensive (Customise every field)
+(Note: You may not be able to move to the previous menu or officially exit the program while creating a vehicle)
+
+b
+Please enter the following fields:
+Registration: 126ABC
+Vehicle Grade (Luxury, Commercial, Family, Economy): Economy
+Make: Mazda
+Model: 7
+Year: 2020
+Number of seats: 4
+Transmission Type (Automatic, Manual): Manual
+Fuel Type (Petrol, Diesel): d
+Please enter a valid fuel type (Petrol, Diesel)
+Fuel Type (Petrol, Diesel): Diesel
+Has GPS (Y/N): p
+Please enter either 'Y' or 'N'
+Has GPS (Y/N): y
+Has SunRoof (Y/N): n
+Daily Rate: -9
+ERROR: Please enter a whole number above zero signifying the daily rate for the vehicle
+Daily Rate: 20.00
+Colour: Green
+Successfully created Vehicle 2020 - Mazda 7
+
+
+---------Vehicle Management Menu---------
+
+Please select from the options below:
+A. Display Vehicles
+B. New Vehicle
+C. Modify Vehicle
+D. Delete Vehicle
+c
+Please select the vehicle you wish to modify:
+
+A - 851VOJ - Pontiac Fiero 2M4
+B - 169FBE - Pontiac Fiero 2M4
+C - 602VVZ - Pontiac Fiero 2M4
+D - 993QAN - Mitsubishi 3000 GT VR-4
+E - 509XRK - Dodge Dakota
+F - 471XBI - Chevrolet Tahoe
+G - 682GWJ - Audi A4
+H - 677UIA - Audi S4
+I - 519YUY - Dodge Durango
+J - 124ABC - Mazda 4
+K - 123abc - mazda 1
+L - 125ABC - Mazda 3
+M - 126ABC - Mazda 7
+n
+ERROR: Please enter a valid character between A and M
+
+m
+Registration: 126ABC
+Grade: Economy
+Make: Mazda
+Model: 7
+Year: 2020
+Number of seats: 4 seater
+Transmission type: Manual
+Fuel Type: Diesel
+GPS Inclusion: True
+SunRoof Inclusion: False
+Daily Rate: $20
+Colour: Green
+
+Select which aspect of the vehicle to modify
+
+A - Registration
+
+B - Grade
+
+C - Make
+
+D - Model
+
+E - Year
+
+F - Number of seats
+
+G - Transmission type
+
+H - Fuel Type
+
+I - GPS Inclusion
+
+J - SunRoof Inclusion
+
+K - Daily Rate
+
+L - Colour
+a
+You have entered A, for Registration
+The Current Registration for this customer is 126ABC. What would you like to change it to?
+
+123abc
+ERROR: Registration found in existing vehicle. Please enter a registration that does not already exist
+
+Select which aspect of the vehicle to modify
+
+A - Registration
+
+B - Grade
+
+C - Make
+
+D - Model
+
+E - Year
+
+F - Number of seats
+
+G - Transmission type
+
+H - Fuel Type
+
+I - GPS Inclusion
+
+J - SunRoof Inclusion
+
+K - Daily Rate
+
+L - Colour
+a
+You have entered A, for Registration
+The Current Registration for this customer is 126ABC. What would you like to change it to?
+
+555oo5
+Letter in place of number: Please enter three numbers followed by three letters
+
+Select which aspect of the vehicle to modify
+
+A - Registration
+
+B - Grade
+
+C - Make
+
+D - Model
+
+E - Year
+
+F - Number of seats
+
+G - Transmission type
+
+H - Fuel Type
+
+I - GPS Inclusion
+
+J - SunRoof Inclusion
+
+K - Daily Rate
+
+L - Colour
+a
+You have entered A, for Registration
+The Current Registration for this customer is 126ABC. What would you like to change it to?
+
+555ooo
+
+You have changed the Registration from 126ABC to 555ooo.
+
+
+Would you like to modify another aspect of this vehicle? (Y/N)
+
+y
+Select which aspect of the vehicle to modify
+
+A - Registration
+
+B - Grade
+
+C - Make
+
+D - Model
+
+E - Year
+
+F - Number of seats
+
+G - Transmission type
+
+H - Fuel Type
+
+I - GPS Inclusion
+
+J - SunRoof Inclusion
+
+K - Daily Rate
+
+L - Colour
+f
+You have entered F, for Number of seats
+The Current Number of seats for this customer is 4. What would you like to change it to?
+
+four
+ERROR: Please enter a valid whole number above zero
+
+Select which aspect of the vehicle to modify
+
+A - Registration
+
+B - Grade
+
+C - Make
+
+D - Model
+
+E - Year
+
+F - Number of seats
+
+G - Transmission type
+
+H - Fuel Type
+
+I - GPS Inclusion
+
+J - SunRoof Inclusion
+
+K - Daily Rate
+
+L - Colour
+h
+You have entered H, for Fuel Type
+The Current Fuel Type for this customer is Diesel. What would you like to change it to?
+
+Petrol
+
+You have changed the Fuel Type from Diesel to Petrol.
+
+
+Would you like to modify another aspect of this vehicle? (Y/N)
+
+y
+Select which aspect of the vehicle to modify
+
+A - Registration
+
+B - Grade
+
+C - Make
+
+D - Model
+
+E - Year
+
+F - Number of seats
+
+G - Transmission type
+
+H - Fuel Type
+
+I - GPS Inclusion
+
+J - SunRoof Inclusion
+
+K - Daily Rate
+
+L - Colour
+f
+You have entered F, for Number of seats
+The Current Number of seats for this customer is 4. What would you like to change it to?
+
+2
+
+You have changed the Number of seats from 4 to 2.
+
+
+Would you like to modify another aspect of this vehicle? (Y/N)
+
+y
+Select which aspect of the vehicle to modify
+
+A - Registration
+
+B - Grade
+
+C - Make
+
+D - Model
+
+E - Year
+
+F - Number of seats
+
+G - Transmission type
+
+H - Fuel Type
+
+I - GPS Inclusion
+
+J - SunRoof Inclusion
+
+K - Daily Rate
+
+L - Colour
+l
+You have entered L, for Colour
+The Current Colour for this customer is Green. What would you like to change it to?
+
+Black
+
+You have changed the Colour from Green to Black.
+
+
+Would you like to modify another aspect of this vehicle? (Y/N)
+
+n
+
+---------Vehicle Management Menu---------
+
+Please select from the options below:
+A. Display Vehicles
+B. New Vehicle
+C. Modify Vehicle
+D. Delete Vehicle
+d
+Please select the ID of the vehicle you wish to remove
+
+A- 851VOJ - Pontiac Fiero 2M4
+B- 169FBE - Pontiac Fiero 2M4
+C- 602VVZ - Pontiac Fiero 2M4
+D- 993QAN - Mitsubishi 3000 GT VR-4
+E- 509XRK - Dodge Dakota
+F- 471XBI - Chevrolet Tahoe
+G- 682GWJ - Audi A4
+H- 677UIA - Audi S4
+I- 519YUY - Dodge Durango
+J- 124ABC - Mazda 4
+K- 123abc - mazda 1
+L- 125ABC - Mazda 3
+M- 555ooo - Mazda 7
+m
+Successfully deleted vehicle with ID M
+
+
++-------------+-----------+-----------+-------------+-----+---------+-------------+-------+------+-------+-----------+-------+
+|Registration |Grade      |Make       |Model        |Year |NumSeats |Transmission |Fuel   |GPS   |SunRoof|DailyRate  |Colour |
++-------------+-----------+-----------+-------------+-----+---------+-------------+-------+------+-------+-----------+-------+
+|851VOJ       |Economy    |Pontiac    |Fiero 2M4    |1985 |2        |Manual       |Petrol |False |False  |37.1       |Black  |
++-------------+-----------+-----------+-------------+-----+---------+-------------+-------+------+-------+-----------+-------+
+|169FBE       |Economy    |Pontiac    |Fiero 2M4    |1985 |2        |Manual       |Petrol |False |False  |48.8       |Black  |
++-------------+-----------+-----------+-------------+-----+---------+-------------+-------+------+-------+-----------+-------+
+|602VVZ       |Economy    |Pontiac    |Fiero 2M4    |1987 |2        |Manual       |Petrol |False |False  |37.9       |Red    |
++-------------+-----------+-----------+-------------+-----+---------+-------------+-------+------+-------+-----------+-------+
+|993QAN       |Commercial |Mitsubishi |3000 GT VR-4 |1991 |2        |Manual       |Petrol |False |False  |37.8       |Red    |
++-------------+-----------+-----------+-------------+-----+---------+-------------+-------+------+-------+-----------+-------+
+|509XRK       |Commercial |Dodge      |Dakota       |2002 |4        |Manual       |Diesel |True  |False  |45.5       |Blue   |
++-------------+-----------+-----------+-------------+-----+---------+-------------+-------+------+-------+-----------+-------+
+|471XBI       |Luxury     |Chevrolet  |Tahoe        |1996 |8        |Automatic    |Petrol |True  |True   |38         |Black  |
++-------------+-----------+-----------+-------------+-----+---------+-------------+-------+------+-------+-----------+-------+
+|682GWJ       |Commercial |Audi       |A4           |1997 |5        |Manual       |Petrol |False |False  |46.1       |Blue   |
++-------------+-----------+-----------+-------------+-----+---------+-------------+-------+------+-------+-----------+-------+
+|677UIA       |Economy    |Audi       |S4           |2004 |5        |Manual       |Petrol |False |False  |43.3       |Blue   |
++-------------+-----------+-----------+-------------+-----+---------+-------------+-------+------+-------+-----------+-------+
+|519YUY       |Family     |Dodge      |Durango      |2006 |7        |Automatic    |Diesel |True  |True   |46.8       |Blue   |
++-------------+-----------+-----------+-------------+-----+---------+-------------+-------+------+-------+-----------+-------+
+|124ABC       |Family     |Mazda      |4            |2019 |4        |Automatic    |Petrol |True  |True   |80         |black  |
++-------------+-----------+-----------+-------------+-----+---------+-------------+-------+------+-------+-----------+-------+
+|123abc       |Economy    |mazda      |1            |2020 |4        |Manual       |Petrol |False |False  |50         |black  |
++-------------+-----------+-----------+-------------+-----+---------+-------------+-------+------+-------+-----------+-------+
+|125ABC       |Family     |Mazda      |3            |2017 |4        |Automatic    |Petrol |True  |True   |80         |black  |
++-------------+-----------+-----------+-------------+-----+---------+-------------+-------+------+-------+-----------+-------+
+
+Would you like to delete another vehicle?(Y/N)
+y
+Please select the ID of the vehicle you wish to remove
+
+A- 851VOJ - Pontiac Fiero 2M4
+B- 169FBE - Pontiac Fiero 2M4
+C- 602VVZ - Pontiac Fiero 2M4
+D- 993QAN - Mitsubishi 3000 GT VR-4
+E- 509XRK - Dodge Dakota
+F- 471XBI - Chevrolet Tahoe
+G- 682GWJ - Audi A4
+H- 677UIA - Audi S4
+I- 519YUY - Dodge Durango
+J- 124ABC - Mazda 4
+K- 123abc - mazda 1
+L- 125ABC - Mazda 3
+k
+Successfully deleted vehicle with ID K
+
+
++-------------+-----------+-----------+-------------+-----+---------+-------------+-------+------+-------+-----------+-------+
+|Registration |Grade      |Make       |Model        |Year |NumSeats |Transmission |Fuel   |GPS   |SunRoof|DailyRate  |Colour |
++-------------+-----------+-----------+-------------+-----+---------+-------------+-------+------+-------+-----------+-------+
+|851VOJ       |Economy    |Pontiac    |Fiero 2M4    |1985 |2        |Manual       |Petrol |False |False  |37.1       |Black  |
++-------------+-----------+-----------+-------------+-----+---------+-------------+-------+------+-------+-----------+-------+
+|169FBE       |Economy    |Pontiac    |Fiero 2M4    |1985 |2        |Manual       |Petrol |False |False  |48.8       |Black  |
++-------------+-----------+-----------+-------------+-----+---------+-------------+-------+------+-------+-----------+-------+
+|602VVZ       |Economy    |Pontiac    |Fiero 2M4    |1987 |2        |Manual       |Petrol |False |False  |37.9       |Red    |
++-------------+-----------+-----------+-------------+-----+---------+-------------+-------+------+-------+-----------+-------+
+|993QAN       |Commercial |Mitsubishi |3000 GT VR-4 |1991 |2        |Manual       |Petrol |False |False  |37.8       |Red    |
++-------------+-----------+-----------+-------------+-----+---------+-------------+-------+------+-------+-----------+-------+
+|509XRK       |Commercial |Dodge      |Dakota       |2002 |4        |Manual       |Diesel |True  |False  |45.5       |Blue   |
++-------------+-----------+-----------+-------------+-----+---------+-------------+-------+------+-------+-----------+-------+
+|471XBI       |Luxury     |Chevrolet  |Tahoe        |1996 |8        |Automatic    |Petrol |True  |True   |38         |Black  |
++-------------+-----------+-----------+-------------+-----+---------+-------------+-------+------+-------+-----------+-------+
+|682GWJ       |Commercial |Audi       |A4           |1997 |5        |Manual       |Petrol |False |False  |46.1       |Blue   |
++-------------+-----------+-----------+-------------+-----+---------+-------------+-------+------+-------+-----------+-------+
+|677UIA       |Economy    |Audi       |S4           |2004 |5        |Manual       |Petrol |False |False  |43.3       |Blue   |
++-------------+-----------+-----------+-------------+-----+---------+-------------+-------+------+-------+-----------+-------+
+|519YUY       |Family     |Dodge      |Durango      |2006 |7        |Automatic    |Diesel |True  |True   |46.8       |Blue   |
++-------------+-----------+-----------+-------------+-----+---------+-------------+-------+------+-------+-----------+-------+
+|124ABC       |Family     |Mazda      |4            |2019 |4        |Automatic    |Petrol |True  |True   |80         |black  |
++-------------+-----------+-----------+-------------+-----+---------+-------------+-------+------+-------+-----------+-------+
+|125ABC       |Family     |Mazda      |3            |2017 |4        |Automatic    |Petrol |True  |True   |80         |black  |
++-------------+-----------+-----------+-------------+-----+---------+-------------+-------+------+-------+-----------+-------+
+
+Would you like to delete another vehicle?(Y/N)
+i
+Please enter a valid character (Y/N)
+
+n
+---------Vehicle Management Menu---------
+
+Please select from the options below:
+A. Display Vehicles
+B. New Vehicle
+C. Modify Vehicle
+D. Delete Vehicle
+
+----- Mates Rates Rent-a-car Operation Menu -----
+
+Press the BackSpace key at any time to go return to the previous menu
+
+Please select from the choices below:
+
+A. Customer Management
+B. Fleet Management
+C. Rental Management
+
+
+ERROR: No previous menu to enter
+
+
+----- Mates Rates Rent-a-car Operation Menu -----
+
+Press the BackSpace key at any time to go return to the previous menu
+
+Please select from the choices below:
+
+A. Customer Management
+B. Fleet Management
+C. Rental Management
+
+c
+Rental Management currently being worked on. Come back later
+
+
+----- Mates Rates Rent-a-car Operation Menu -----
+
+Press the BackSpace key at any time to go return to the previous menu
+
+Please select from the choices below:
+
+A. Customer Management
+B. Fleet Management
+C. Rental Management
+
+o
+ERROR: Please enter a valid character between A and C
+
+
+PS C:\Users\joshh\source\repos\Assignment_1\Assignment 1\bin\Debug\netcoreapp3.1> Stop-Transcript
+**********************
+Windows PowerShell transcript end
+End time: 20200423135502
+**********************
